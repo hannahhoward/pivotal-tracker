@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "pivotal-tracker"
-  s.version = "0.5.10"
+  s.version = "0.5.11"
  
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Smestad", "Josh Nichols", "Terence Lee"]
@@ -39,6 +39,8 @@ Gem::Specification.new do |s|
     "lib/pivotal-tracker/validation.rb",
     "lib/pivotal_tracker.rb",
     "pivotal-tracker.gemspec",
+    "spec/fixtures/vcr_cassettes/default_vcr_cassette.yml",
+    "spec/support/vcr_config.rb",
     "spec/pivotal-tracker/activity_spec.rb",
     "spec/pivotal-tracker/attachment_spec.rb",
     "spec/pivotal-tracker/client_spec.rb",
@@ -49,8 +51,7 @@ Gem::Specification.new do |s|
     "spec/pivotal-tracker/story_spec.rb",
     "spec/pivotal-tracker/task_spec.rb",
     "spec/spec.opts",
-    "spec/spec_helper.rb",
-    "spec/support/stale_fish_fixtures.rb"
+    "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/jsmestad/pivotal-tracker"
   s.require_paths = ["lib"]
