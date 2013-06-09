@@ -5,8 +5,8 @@
 
 Gem::Specification.new do |s|
   s.name = "pivotal-tracker"
-  s.version = "0.5.10"
-
+  s.version = "0.5.11"
+ 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Smestad", "Josh Nichols", "Terence Lee"]
   s.date = "2012-11-25"
@@ -39,29 +39,8 @@ Gem::Specification.new do |s|
     "lib/pivotal-tracker/validation.rb",
     "lib/pivotal_tracker.rb",
     "pivotal-tracker.gemspec",
-    "spec/fixtures/activity.xml",
-    "spec/fixtures/bugs.xml",
-    "spec/fixtures/created_note.xml",
-    "spec/fixtures/created_story.xml",
-    "spec/fixtures/features.xml",
-    "spec/fixtures/iterations_all.xml",
-    "spec/fixtures/iterations_backlog.xml",
-    "spec/fixtures/iterations_current.xml",
-    "spec/fixtures/iterations_current_backlog.xml",
-    "spec/fixtures/iterations_done.xml",
-    "spec/fixtures/memberships.xml",
-    "spec/fixtures/notes.xml",
-    "spec/fixtures/project.xml",
-    "spec/fixtures/project_activity.xml",
-    "spec/fixtures/projects.xml",
-    "spec/fixtures/stale_fish.yml",
-    "spec/fixtures/stories.xml",
-    "spec/fixtures/story-4459994.xml",
-    "spec/fixtures/story-4460038.xml",
-    "spec/fixtures/story-4460598.xml",
-    "spec/fixtures/story-4473735.xml",
-    "spec/fixtures/tasks.xml",
-    "spec/fixtures/update_tasks.xml",
+    "spec/fixtures/vcr_cassettes/default_vcr_cassette.yml",
+    "spec/support/vcr_config.rb",
     "spec/pivotal-tracker/activity_spec.rb",
     "spec/pivotal-tracker/attachment_spec.rb",
     "spec/pivotal-tracker/client_spec.rb",
@@ -72,8 +51,7 @@ Gem::Specification.new do |s|
     "spec/pivotal-tracker/story_spec.rb",
     "spec/pivotal-tracker/task_spec.rb",
     "spec/spec.opts",
-    "spec/spec_helper.rb",
-    "spec/support/stale_fish_fixtures.rb"
+    "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/jsmestad/pivotal-tracker"
   s.require_paths = ["lib"]
