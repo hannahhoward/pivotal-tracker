@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
     "lib/pivotal-tracker/extensions.rb",
     "lib/pivotal-tracker/iteration.rb",
     "lib/pivotal-tracker/membership.rb",
+    "lib/pivotal-tracker/author.rb",
     "lib/pivotal-tracker/note.rb",
     "lib/pivotal-tracker/project.rb",
     "lib/pivotal-tracker/proxy.rb",
