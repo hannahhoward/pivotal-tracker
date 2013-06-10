@@ -12,10 +12,12 @@ require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'project')
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'attachment')
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'story')
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'task')
+require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'author')
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'membership')
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'activity')
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'iteration')
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'note')
+
 
 module PivotalTracker
 

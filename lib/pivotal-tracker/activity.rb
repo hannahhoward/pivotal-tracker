@@ -58,7 +58,7 @@ module PivotalTracker
     element :version, Integer
     element :event_type, String
     element :occurred_at, DateTime
-    element :author, String
+    has_one :author, Author
     element :project_id, Integer
     element :description, String
 
