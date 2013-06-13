@@ -3,6 +3,13 @@ require 'rest_client'
 require 'happymapper'
 require 'nokogiri'
 
+HappyMapper::SupportedTypes.register_type DateTime do |value|
+  begin
+    DateTime.parse(value,to_s)
+  rescue => ex
+    nil
+  end
+end
 
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'validation')
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'extensions')
