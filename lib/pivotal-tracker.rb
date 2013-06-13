@@ -3,7 +3,7 @@ require 'rest_client'
 require 'happymapper'
 require 'nokogiri'
 
-HappyMapper::SupportedTypes.register_type DateTime do |value|
+HappyMapper::SupportedTypes.types.unshift HappyMapper::SupportedTypes::CastWhenType.new DateTime do |value|
   begin
     DateTime.parse(value,to_s)
   rescue => ex
