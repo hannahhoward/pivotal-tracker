@@ -29,7 +29,7 @@ module PivotalTracker
           return nil if !options.is_a?(Hash) || options.empty?
 
           options_string = []
-          options_string << "limit=#{options.delete(:limit)}" 
+          options_string << "limit=#{options.delete(:limit)}"
           options_string << "newer_than_version=#{options.delete(:newer_than_version)}" if options[:newer_than_version]
 
           if options[:occurred_since]
