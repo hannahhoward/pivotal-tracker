@@ -3,13 +3,13 @@ require 'rest_client'
 require 'happymapper'
 require 'nokogiri'
 
-HappyMapper::SupportedTypes.types.unshift HappyMapper::SupportedTypes::CastWhenType.new DateTime do |value|
+HappyMapper::SupportedTypes.types.unshift(HappyMapper::SupportedTypes::CastWhenType.new (DateTime) { |value|
   begin
-    DateTime.parse(value,to_s)
-  rescue => ex
+    DateTime.parse(value,&:to_s)
+  rescue TypeError, ArgumentError => ex
     nil
   end
-end
+})
 
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'validation')
 require File.join(File.dirname(__FILE__), 'pivotal-tracker', 'extensions')

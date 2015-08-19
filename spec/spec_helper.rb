@@ -1,5 +1,6 @@
 require 'bundler'
 require 'fileutils'
+require 'crack'
 
 Bundler.require(:default, :runtime, :test)
 $LOAD_PATH.unshift(File.dirname(__FILE__))

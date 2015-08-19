@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -20,37 +20,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImE0YjU0ZGU1ZjM2NDNjMjA3ZWIwYjg2YjA0MzQ2YTNkIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        OTI=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"a4b54de5f3643c207eb0b86b04346a3d"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '92'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -80,8 +69,7 @@ http_interactions:
         Yff0N3wJ/MA/TTbP3+1A2EfYTUXp4vpt212vs+2X/uf2JqBhl7Za8tcMICej
         TC40b17T11Fbkr15OqJHLVrd3uHdB++16wvvy57Tzrsfxgu1u7tR/wOv6Nda
         gw8AAA==
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:29:47 GMT
 - request:
     method: get
@@ -91,7 +79,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -103,37 +91,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjlmNDIxMDg3ODMyYWRlODUzNTM2NTFjZTNmOGMzNmY4Ig==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTcz
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"9f421087832ade85353651ce3f8c36f8"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '173'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -1249,8 +1226,7 @@ http_interactions:
         3oywdXe9tVTevBEOm79GlqtcjFZyE7O9jpifFq0wn4fbQwiXeWsq6dmKhzmj
         U6Bo6O5YxIkVadW3rrz+XbY52mxSmD5yA3QfW6Gaq+u/qzdrbJJbHd/mfAwW
         iB2UchdSuf8POC5RzRdRBQA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:29:48 GMT
 - request:
     method: get
@@ -1260,7 +1236,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -1272,37 +1248,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTY5
-      !binary "ZXRhZw==":
-      - !binary |-
-        Ijk2YzI3YzFkODdiOGZhMjE0MWM1MzNiODE1ZTVhMjk1Ig==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '169'
+      etag:
+      - '"96c27c1d87b8fa2141c533b815e5a295"'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -1368,8 +1333,7 @@ http_interactions:
         o2tjkPMW8Ffc39MY+KRYxuP/P/26xg03/PqObrpIBsEsRGVAVUEqoLfSDd4T
         9uryz6cEqfvfdGYD0dkEhgIo7j7vL0gKbuJSogERqkvLuMBcf0DjX6BkBID2
         LAAA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:29:49 GMT
 - request:
     method: get
@@ -1379,7 +1343,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -1391,37 +1355,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImEwNDgyMzRiYThiZjkyN2JlMTkwMDNjYzMxM2JiNWEwIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTcx
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"a048234ba8bf927be19003cc313bb5a0"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '171'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -1692,8 +1645,7 @@ http_interactions:
         t+mpyQD7AGYsiawYN8Nt3V5vbSFuXkmHLY+RlYKLkUpuoi/PEdenpSMsZ+H2
         4MIVnppKerbmoM9oCBYNzR1BnEyRVr301hlcFy/HKpMUSR65gXKfqlw1W+O/
         90/WbEmuNXyrcVusQMygwF3Qw/9/QxeXT2wYAQA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:29:49 GMT
 - request:
     method: get
@@ -1703,7 +1655,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -1715,37 +1667,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImU1NGEyZWY1MWNlZTQzNDRiNjY2NDJiYWIxODFhZjdkIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTgx
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"e54a2ef51cee4344b66642bab181af7d"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '181'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -2567,8 +2508,7 @@ http_interactions:
         Wpo17JZnLgyqTAS+S4I5NHcjmqoXMl1SpACw8dU6vn/EOFwcmKzL0LLQJFse
         Q+HCSNETrigRbTWrFpknHT0vm6hWoOg57PYGB0GiCuUvXvR0Ufw647lQ/ltV
         OVCrzoXD7DgcAjgz+WyFry7+BwmaQEVTDAQA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:29:50 GMT
 - request:
     method: get
@@ -2578,7 +2518,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -2590,37 +2530,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImNjM2FjM2U0MTczZTE3ZGJkZmM3ODRlNmExMDRkZGVlIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTg5
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"cc3ac3e4173e17dbdfc784e6a104ddee"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '189'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -2938,8 +2867,7 @@ http_interactions:
         xkxkxbgZbuvufGtLcfNaOGz5HFmpdDFKyW3M9jri/rR0heU03D24cIVWU1HP
         1l3MGY2AoqG6YxInY6RVL711h9fF4lhlkcLUkZto96nKVWvp/O9dy5qJ5EbF
         tz4egwRiByXdhVDu/wG1CuHME0UBAA==
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:29:51 GMT
 - request:
     method: get
@@ -2949,7 +2877,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -2961,37 +2889,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImZmY2ZkMmVkM2Y5OTQ1NmM1ZTkyYzE2NjYyOWJjNmFjIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTc=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"ffcfd2ed3f99456c5e92c166629bc6ac"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '17'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -3181,8 +3098,7 @@ http_interactions:
         sn55MGfpGOM2cyVErlDw3MQZ5i7QeIbxOLkVgcV1QXpBTBfFabcuB+tlyTzF
         WWlow/IaLnANhE1anflSUd4DSA5eniAHcmm8IIg5/l0csX2juIKLcJ4SkA2G
         MZ7iQBpyCkbRCQPFaDgPeBHKdmoqwRiFsdFfEW9xFDL/HzlC7QYCNgEA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:03 GMT
 - request:
     method: get
@@ -3192,7 +3108,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -3204,37 +3120,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTU=
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImZmY2ZkMmVkM2Y5OTQ1NmM1ZTkyYzE2NjYyOWJjNmFjIg==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '15'
+      etag:
+      - '"ffcfd2ed3f99456c5e92c166629bc6ac"'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -3424,8 +3329,7 @@ http_interactions:
         sn55MGfpGOM2cyVErlDw3MQZ5i7QeIbxOLkVgcV1QXpBTBfFabcuB+tlyTzF
         WWlow/IaLnANhE1anflSUd4DSA5eniAHcmm8IIg5/l0csX2juIKLcJ4SkA2G
         MZ7iQBpyCkbRCQPFaDgPeBHKdmoqwRiFsdFfEW9xFDL/HzlC7QYCNgEA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:03 GMT
 - request:
     method: get
@@ -3435,7 +3339,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -3447,37 +3351,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjI1ZjQyMDYzNzU2Yzg1MWY2NzAxZGFiMWE2M2Y5ZTI2Ig==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        NzY=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"25f42063756c851f6701dab1a63f9e26"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '76'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -3495,8 +3388,7 @@ http_interactions:
         Fte3qt9NkYgPOI8JH4lHACHcAHVZXV0V+MrGbZCYPVqxZsdCADqhNGuFMaL9
         MP6wo8I1ZwYCTmcSJy9JPy2MRWJni8Sbl8hEmWbIs8UCXY9T5vdxkeMIqMPH
         wL5uTHzj6TxmROaMU1MP7skWji9upnFlvS5J9DuLcU2S/Z78A4Ob8EBZBQAA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:03 GMT
 - request:
     method: get
@@ -3506,7 +3398,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -3518,37 +3410,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjM4ZmVkZDc0ZDI2OGFiN2U4YWNhNTE1MTkyY2M2ZDFmIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        Mzcy
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"38fedd74d268ab7e8aca515192cc6d1f"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '372'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -3582,8 +3463,7 @@ http_interactions:
         sJ58BwIhB5Nuk5OHS5r7wx8ssUANpJj0UJTPKW4/LUkAWG0N9DZMlSPErSRx
         1d6yYQ0Hs/z/zCGSDqv9HXxlWgxVTlUa6kQMK5KQPxATQuuj5PqljnA1x7ng
         PJ1/9x+Tmu/WDjkAAA==
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:04 GMT
 - request:
     method: get
@@ -3593,7 +3473,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -3605,37 +3485,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MjU=
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjdlZWEzZDk5M2IwZmJmMWUxMWI5Njc2MGUyZWQ2OWZiIg==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '25'
+      etag:
+      - '"7eea3d993b0fbf1e11b96760e2ed69fb"'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -3669,8 +3538,7 @@ http_interactions:
         YIiY9Fd476+e5141U112xXT6//ZPDg1cehREh4Hr2z3W9jUFyMgkLe4U3wfZ
         18nhDvhsXFp2ok33XZcz2MriZWh7B7m8Sli347Um62m8TzVXF6r/Av/8me6C
         FQAA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:04 GMT
 - request:
     method: get
@@ -3680,7 +3548,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -3692,37 +3560,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjhmMjRlZTViZjMwZGJlZDA1MGJmMDg1NzRjNGQwZDYwIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTcyNw==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"8f24ee5bf30dbed050bf08574c4d0d60"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '1727'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -3939,8 +3796,7 @@ http_interactions:
         VOGF3dHtbNdu8T7E96DZ4dgpJL5++QgtJi/goSwwqvCtP0VeCuSu4MHzL7Rf
         UbDNk8UPbx88+B7QB+gnBF2TEJBmxqNH8KN/4pxVEP7oj/GyUW+JiezG22HN
         7v8Pob8epEuTAQA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:06 GMT
 - request:
     method: get
@@ -3950,7 +3806,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -3962,37 +3818,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTgwNw==
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImQwN2FkMDlhOGUzNTc3MmJiMjVmMDg4NmEyMjg2ODA3Ig==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '1807'
+      etag:
+      - '"d07ad09a8e35772bb25f0886a2286807"'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -4219,8 +4064,7 @@ http_interactions:
         dZQv7eAjUpMrx+Pm0mZLJ+SkqEnJAT/4BM2kgJNAzzsBTUjB0kiwMBK0ifNJ
         8XONJToszEwtkWLI4mchkyTCTGFgapWxtENwgragD/zP2p3bzj9zAvRb4VBV
         c53KFrVmxj6jbOasQf8P5b3CocyfAQA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:08 GMT
 - request:
     method: get
@@ -4230,7 +4074,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -4242,37 +4086,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTg4NA==
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjBjYjk5Yjg1OGE4MjFmOTdlMDFiMTQ2NWVhODA2MTEwIg==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '1884'
+      etag:
+      - '"0cb99b858a821f97e01b1465ea806110"'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -4470,8 +4303,7 @@ http_interactions:
         YFasfQgK5W1UA1CU+WE78LhwpxzBII2aOx2kf6Qhr9QxkpjN4hQlTat1/LTD
         xEkZ7pAzsSQ2WTwLOChGewoNosEzRwP4q7tZI5UMk50MOx24UMq+Qc6NI+X2
         /76XuxXvmgEA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:11 GMT
 - request:
     method: get
@@ -4481,7 +4313,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -4493,37 +4325,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjU5OTdkOTI2YzkzZjBlZGQ3OTVkMTVkNzA1YmI3Zjk2Ig==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTQzMA==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"5997d926c93f0edd795d15d705bb7f96"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '1430'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -4697,8 +4518,7 @@ http_interactions:
         Gx7dh9B2XJK6CDDBeyLsCoQW+N85+mcU3SJ48BM0L6E0jeHZkAbfvqlXMHu8
         sR6wf9vjKsJJc6ijPX4YW4WtQ1KjqF1slT1ufilUs6dcrdNlKvahy1TWBGwq
         R/j/8PJ5nleVAQA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:12 GMT
 - request:
     method: get
@@ -4708,7 +4528,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -4720,37 +4540,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjY0OTgwOGFkYmZhZjUzODFlNjU5MDkxZDAwYzJhN2M5Ig==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        ODc5
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"649808adbfaf5381e659091d00c2a7c9"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '879'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -4823,8 +4632,7 @@ http_interactions:
         XcrrHNAb/MpgnHAYRwQUjfBqDT2UiyAEVbpc9SiKGSgjIWgw9u5gJYOFiOv0
         UaJ94poQ+UFLDOJ/izTyWBBHXI4vPxWsWXtYp4f1DfiVWwangJzissK34YLu
         AxaQ5GLwB5DciKH9mwAA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:14 GMT
 - request:
     method: get
@@ -4834,7 +4642,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -4846,37 +4654,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        NjU=
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjUzZDllNDkyYjc5YTIyMWI1NzNkNTQwYjdlYjRlYTVkIg==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '65'
+      etag:
+      - '"53d9e492b79a221b573d540b7eb4ea5d"'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -4896,8 +4693,7 @@ http_interactions:
         HadtkKPd5JCthCrs6jqxEnvV9nazX6sStuvzSYgSGPfpMyuVmXq9erC/dl/h
         SRp1r7C/r2xzDgCQq7CY3BwLTNA3YjFNw5thcTDkb9AXpqu/EYvhJ+R8X7Qd
         YljU/S3S0X+P76lfzwoAAA==
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:15 GMT
 - request:
     method: get
@@ -4907,7 +4703,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -4919,37 +4715,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjljN2VhMTk2Y2Q4NWJhNjM3OTJiNDJhYmJhMDJiMWM1Ig==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        Njc=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"9c7ea196cd85ba63792b42abba02b1c5"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '67'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -4964,45 +4749,32 @@ http_interactions:
         ZT9JVnaXF2DR/fp5eXXz+yohQ6R3enMnrElj9+BF4tNUbzjE3qd+HodRj6z7
         Bsdhjf3Y1q/PrYJaNioFkslWGAcyYujG15Ae+R7NJ8DfI7oIh3/zGxD1aExX
         X0HUYvgcoiv/OxE9+a0/c0YthleJTmdWnxHdkc5m/wF8LHZOdAYAAA==
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:15 GMT
 - request:
     method: post
     uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories/51345285/attachments
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        LS00NTA0NDUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFt
-        ZT0iRmlsZWRhdGEiOyBmaWxlbmFtZT0iTElDRU5TRSINCkNvbnRlbnQtVHlw
-        ZTogdGV4dC9wbGFpbg0KDQpDb3B5cmlnaHQgKGMpIDIwMDkgSnVzdGluIFNt
-        ZXN0YWQKClBlcm1pc3Npb24gaXMgaGVyZWJ5IGdyYW50ZWQsIGZyZWUgb2Yg
-        Y2hhcmdlLCB0byBhbnkgcGVyc29uIG9idGFpbmluZwphIGNvcHkgb2YgdGhp
-        cyBzb2Z0d2FyZSBhbmQgYXNzb2NpYXRlZCBkb2N1bWVudGF0aW9uIGZpbGVz
-        ICh0aGUKIlNvZnR3YXJlIiksIHRvIGRlYWwgaW4gdGhlIFNvZnR3YXJlIHdp
-        dGhvdXQgcmVzdHJpY3Rpb24sIGluY2x1ZGluZwp3aXRob3V0IGxpbWl0YXRp
-        b24gdGhlIHJpZ2h0cyB0byB1c2UsIGNvcHksIG1vZGlmeSwgbWVyZ2UsIHB1
-        Ymxpc2gsCmRpc3RyaWJ1dGUsIHN1YmxpY2Vuc2UsIGFuZC9vciBzZWxsIGNv
-        cGllcyBvZiB0aGUgU29mdHdhcmUsIGFuZCB0bwpwZXJtaXQgcGVyc29ucyB0
-        byB3aG9tIHRoZSBTb2Z0d2FyZSBpcyBmdXJuaXNoZWQgdG8gZG8gc28sIHN1
-        YmplY3QgdG8KdGhlIGZvbGxvd2luZyBjb25kaXRpb25zOgoKVGhlIGFib3Zl
-        IGNvcHlyaWdodCBub3RpY2UgYW5kIHRoaXMgcGVybWlzc2lvbiBub3RpY2Ug
-        c2hhbGwgYmUKaW5jbHVkZWQgaW4gYWxsIGNvcGllcyBvciBzdWJzdGFudGlh
-        bCBwb3J0aW9ucyBvZiB0aGUgU29mdHdhcmUuCgpUSEUgU09GVFdBUkUgSVMg
-        UFJPVklERUQgIkFTIElTIiwgV0lUSE9VVCBXQVJSQU5UWSBPRiBBTlkgS0lO
-        RCwKRVhQUkVTUyBPUiBJTVBMSUVELCBJTkNMVURJTkcgQlVUIE5PVCBMSU1J
-        VEVEIFRPIFRIRSBXQVJSQU5USUVTIE9GCk1FUkNIQU5UQUJJTElUWSwgRklU
-        TkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UgQU5ECk5PTklORlJJTkdF
-        TUVOVC4gSU4gTk8gRVZFTlQgU0hBTEwgVEhFIEFVVEhPUlMgT1IgQ09QWVJJ
-        R0hUIEhPTERFUlMgQkUKTElBQkxFIEZPUiBBTlkgQ0xBSU0sIERBTUFHRVMg
-        T1IgT1RIRVIgTElBQklMSVRZLCBXSEVUSEVSIElOIEFOIEFDVElPTgpPRiBD
-        T05UUkFDVCwgVE9SVCBPUiBPVEhFUldJU0UsIEFSSVNJTkcgRlJPTSwgT1VU
-        IE9GIE9SIElOIENPTk5FQ1RJT04KV0lUSCBUSEUgU09GVFdBUkUgT1IgVEhF
-        IFVTRSBPUiBPVEhFUiBERUFMSU5HUyBJTiBUSEUgU09GVFdBUkUuCg0KLS00
-        NTA0NDUtLQ0K
+      string: "--450445\r\nContent-Disposition: form-data; name=\"Filedata\"; filename=\"LICENSE\"\r\nContent-Type:
+        text/plain\r\n\r\nCopyright (c) 2009 Justin Smestad\n\nPermission is hereby
+        granted, free of charge, to any person obtaining\na copy of this software
+        and associated documentation files (the\n\"Software\"), to deal in the Software
+        without restriction, including\nwithout limitation the rights to use, copy,
+        modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the
+        Software, and to\npermit persons to whom the Software is furnished to do so,
+        subject to\nthe following conditions:\n\nThe above copyright notice and this
+        permission notice shall be\nincluded in all copies or substantial portions
+        of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF
+        ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+        OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT.
+        IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM,
+        DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE,
+        ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER
+        DEALINGS IN THE SOFTWARE.\n\r\n--450445--\r\n"
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5016,49 +4788,35 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "bG9jYXRpb24=":
-      - !binary |-
-        aHR0cDovL3d3dy5waXZvdGFsdHJhY2tlci5jb20vc2VydmljZXMvdjMvcHJv
-        amVjdHMvODMzMDc1L3N0b3JpZXMvNTEzNDUyODU=
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjJiNzk3NDlmMzczNjEzNDMxZjYzODVlNTZlNWNmYjdiIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MjY3
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      location:
+      - http://www.pivotaltracker.com/services/v3/projects/833075/stories/51345285
+      etag:
+      - '"2b79749f373613431f6385e56e5cfb7b"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '267'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         H4sIAAAAAAAAA7Oxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1
         ULK347JJLClJTM7ITc0rseNSULDJTFEoqSxItVXKzCtJTU8tUrIztLQwMLA0
         M7fRz0wBKykuSSwpLbYLSM0DmWWjD+Vz2egjmwUAEEBSd4AAAAA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:15 GMT
 - request:
     method: get
@@ -5068,7 +4826,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5080,37 +4838,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        Ijg2MjRiYmIwODAwNDAyZGQ2YzcyZDEzYWFiMGQyZjYwIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        NTE=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"8624bbb0800402dd6c72d13aab0d2f60"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '51'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5120,8 +4867,7 @@ http_interactions:
         p7c36dQKIXCW22kyilEaEG3SkjapOEvcJNCog5aDF20bLSeQjdnSmTs7gHi/
         ITjOUv2fztkLdGFeqMS2rqvnzfyDKcehC/oKn9BZp8oP68Pb8as8PM6xDMXZ
         OK/kbD5gvOYCeVH8AdwfDgeEAQAA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:17 GMT
 - request:
     method: get
@@ -5131,7 +4877,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5143,37 +4889,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjM0ZDQ4ODNhZjE1MGIzNzdkNDRmMjE0ZjZkOGVhOGVlIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MzA=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"34d4883af150b377d44f214f6d8ea8ee"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '30'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5183,18 +4918,22 @@ http_interactions:
         RL013psD2oaziVaR2TulDEPsm8lzf2syZNcD1pwyQegzoRXioqGrhtdo170o
         8lMxMo7Wf2nlDe3mDCn04CGlh+XIS3YfeSkE+33nDlJGw/ILYXPecHondlnd
         HHxx7Lphq7+xp39JuvgCZ5llHxsDAAA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:18 GMT
 - request:
     method: post
     uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories/51345231/notes
     body:
       encoding: US-ASCII
-      string: ! "<?xml version=\"1.0\"?>\n<note>\n  <text>Test note</text>\n  <noted_at/>\n</note>\n"
+      string: |
+        <?xml version="1.0"?>
+        <note>
+          <text>Test note</text>
+          <noted_at/>
+        </note>
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5208,41 +4947,28 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MjIz
-      !binary "bG9jYXRpb24=":
-      - !binary |-
-        aHR0cDovL3d3dy5waXZvdGFsdHJhY2tlci5jb20vc2VydmljZXMvdjMvcHJv
-        amVjdHMvODMzMDc1L3N0b3JpZXMvNTEzNDUyMzEvbm90ZXMvNDQ0MjU2Nzc=
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImM1OTQwYmI4ODkwOWNiODIzNzI4MTgzNjZhMzcyNzM4Ig==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '223'
+      location:
+      - http://www.pivotaltracker.com/services/v3/projects/833075/stories/51345231/notes/44425677
+      etag:
+      - '"c5940bb88909cb82372818366a372738"'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5250,8 +4976,7 @@ http_interactions:
         wd38+e9lRjXLeIcXTrMLvmbpXjBAfw3W+VvN+u68O7JGJ8oHQp0AKGeBPg+s
         mfOEN5yYzvNcHoqyVNzZFSFcSHc4E0RL8TXHwjxpCJNujfdmgDa8zWQV37YR
         iLy9GNpOWENIbkSmpUgzLgouSpBZlYkqldB3J8X/xu/FddbJF/ZFP8DSAAAA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:18 GMT
 - request:
     method: get
@@ -5261,7 +4986,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5273,37 +4998,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjNkYTg2MWQzNjllNzQxNmYxNjAwNDEyNjRkM2YxYmQ4Ig==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTk=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"3da861d369e7416f160041264d3f1bd8"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '19'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5372,18 +5086,21 @@ http_interactions:
         xHvd83W5U//oyYT5BlRMuDQlfv3Ccqoilhkmhtmue+3GSpKp8vTWncW1t7xG
         q+FUjg1ut+5kWi17Njmm3Fe5C1pEHRiB1WtWNkRb/DHZVI+/wQC/A+H/LMCd
         ynpmAAA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:18 GMT
 - request:
     method: post
     uri: http://www.pivotaltracker.com/services/v3/projects
     body:
       encoding: US-ASCII
-      string: ! "<?xml version=\"1.0\"?>\n<project>\n  <name>Pivotal Tracker API Gem</name>\n</project>\n"
+      string: |
+        <?xml version="1.0"?>
+        <project>
+          <name>Pivotal Tracker API Gem</name>
+        </project>
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5413,9 +5130,12 @@ http_interactions:
       - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
     body:
       encoding: US-ASCII
-      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<errors>\n  <error>The
-        project name you entered is already taken.</error>\n  <error>The project name
-        you entered is already taken.</error>\n</errors>\n"
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+        <errors>
+          <error>The project name you entered is already taken.</error>
+          <error>The project name you entered is already taken.</error>
+        </errors>
     http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:19 GMT
 - request:
@@ -5426,7 +5146,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5438,37 +5158,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjZiYWM5Nzg0YTgzNjQ0OTM0ZTExOTMwMjBkYTgwYWI4Ig==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        OTI=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"6bac9784a83644934e1193020da80ab8"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '92'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5497,8 +5206,7 @@ http_interactions:
         F44NUyIXb/szHVTl1qSifRXJklWZfLEYeQrpujQb4G2lzGn/cPKVsZySwkwW
         JK/gIui69RHHnhq6a8vxI7fdme0AUBYKdDAUaD+BzE6FZhJkHHi2akE7EzJB
         H69MhczOpTEJMsD/MyMDlYc9WeUmZxr+bNacmuITvH4mV/8Cm1i71i8dAAA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:19 GMT
 - request:
     method: get
@@ -5508,7 +5216,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5520,45 +5228,33 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTYz
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImZlMzg1YWQ2M2M3NTk5MDNhZGRjMDdlYzA1Njk2ODUyIg==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '163'
+      etag:
+      - '"fe385ad63c759903addc07ec05696852"'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         H4sIAAAAAAAAA7Oxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1
         ULK347IpLskvykwtViipLEi1VUosKkqsVFIoyS9JzLFVAmpJzi/NKwGz0jJz
         SlKLbJVAGirjQcqtkkrTlYBG6EPNsOMCAHmsjed1AAAA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:19 GMT
 - request:
     method: get
@@ -5568,7 +5264,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5580,37 +5276,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjU2MDNmMDI3OTc2MGIwYTJlODZkNmU2ZTZhNmE3MjQ0Ig==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MjQ1
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"5603f0279760b0a2e86d6e6e6a6a7244"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '245'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5640,20 +5325,29 @@ http_interactions:
         LFn3cPI1z5eMZmY8p8sSLoK2Wx9x6qmhvbZsL3SandkNAGWhQAdDgfYTyOxV
         aEZBxoZnqwa0CyHjd/HKWMjsXRqjIAP8vzAyUHk4kFVuc6bmz3bNqS4+wcto
         fPMvQiUuAEsdAAA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:20 GMT
 - request:
     method: post
     uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories
     body:
       encoding: US-ASCII
-      string: ! "<?xml version=\"1.0\"?>\n<story>\n  <name>Create Stuff</name>\n  <description/>\n
-        \ <story_type/>\n  <estimate/>\n  <current_state/>\n  <requested_by/>\n  <owned_by/>\n
-        \ <labels/>\n  <project_id>833075</project_id>\n</story>\n"
+      string: |
+        <?xml version="1.0"?>
+        <story>
+          <name>Create Stuff</name>
+          <description/>
+          <story_type/>
+          <estimate/>
+          <current_state/>
+          <requested_by/>
+          <owned_by/>
+          <labels/>
+          <project_id>833075</project_id>
+        </story>
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5667,41 +5361,28 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MjM1
-      !binary "bG9jYXRpb24=":
-      - !binary |-
-        aHR0cDovL3d3dy5waXZvdGFsdHJhY2tlci5jb20vc2VydmljZXMvdjMvcHJv
-        amVjdHMvODMzMDc1L3N0b3JpZXMvNTEzNDYyNTE=
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjFmMDhlOTVkZTQ5YTJmZjkzM2ZlN2VhNmNlMDllZmM0Ig==
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '235'
+      location:
+      - http://www.pivotaltracker.com/services/v3/projects/833075/stories/51346251
+      etag:
+      - '"1f08e95de49a2ff933fe7ea6ce09efc4"'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5713,8 +5394,7 @@ http_interactions:
         WuAb6xcC8oLucGA0tgJm4cP5uSDL1zPfCq1FTbZmENbPucNipughS4Hf8aUv
         /T6Q8Gma5TSd0XROpvkyT5dZQfa7jQ/7q4nzXBc0/7O4avwDXM7LR19TsAvk
         MQIAAA==
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:21 GMT
 - request:
     method: get
@@ -5724,7 +5404,7 @@ http_interactions:
       string: ''
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5736,37 +5416,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImU1OGFiMWE5ZmZmZjE3OTdhMTc5ZmU3MDBlMmI5MGYxIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MzA=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"e58ab1a9ffff1797a179fe700e2b90f1"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '30'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5776,19 +5445,22 @@ http_interactions:
         E5kDJP3ZvqVNPtrZ9StT0k1aI3s/TgMmXJ2v3g+oHag3PUSUdJM3d0Cd0Lzo
         PHqBMfmZ7IigOCsFZRVlNeGi4VUjODl3Tzni+8/CTDfo/9BXu9Lzu9HXTbkD
         fb0rvbgb/TGv/6/d324gquILgPypgT8DAAA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:21 GMT
 - request:
     method: post
     uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories/51345231/tasks
     body:
       encoding: US-ASCII
-      string: ! "<?xml version=\"1.0\"?>\n<task>\n  <description>Test task</description>\n
-        \ <complete/>\n</task>\n"
+      string: |
+        <?xml version="1.0"?>
+        <task>
+          <description>Test task</description>
+          <complete/>
+        </task>
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5802,41 +5474,28 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        ImZhMjAwOTFkYjcwNDc5MGJjNGI2N2FkMTQ4ZTM1MDQ5Ig==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        MTcx
-      !binary "bG9jYXRpb24=":
-      - !binary |-
-        aHR0cDovL3d3dy5waXZvdGFsdHJhY2tlci5jb20vc2VydmljZXMvdjMvcHJv
-        amVjdHMvODMzMDc1L3N0b3JpZXMvNTEzNDUyMzEvdGFza3MvMTUwMzA0MDE=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"fa20091db704790bc4b67ad148e35049"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '171'
+      location:
+      - http://www.pivotaltracker.com/services/v3/projects/833075/stories/51345231/tasks/15030401
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5845,19 +5504,22 @@ http_interactions:
         AUqsbYAORizYjmY0p4wTrWZEgW9HPYSYKGrwAU1mTn7XEzY4ryfmPy/nZJXm
         uNb1g4EAH+7qnAFpsbhJ44GTVV7YEWQAdZHx6PylimPQPWCRUpYRuif0gNKs
         yGjBctTUpxjw9cSeZCn6BpCiyZQXAQAA
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:22 GMT
 - request:
     method: put
     uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories/51345231/tasks/15030357
     body:
       encoding: US-ASCII
-      string: ! "<?xml version=\"1.0\"?>\n<task>\n  <description>Test task</description>\n
-        \ <complete>false</complete>\n</task>\n"
+      string: |
+        <?xml version="1.0"?>
+        <task>
+          <description>Test task</description>
+          <complete>false</complete>
+        </task>
     headers:
       accept:
-      - ! '*/*; q=0.5, application/xml'
+      - "*/*; q=0.5, application/xml"
       accept-encoding:
       - gzip, deflate
       x-trackertoken:
@@ -5871,37 +5533,26 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Y29udGVudC10eXBl":
-      - !binary |-
-        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
-      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "c3RhdHVz":
-      - !binary |-
-        MjAw
-      !binary "eC1wb3dlcmVkLWJ5":
-      - !binary |-
-        UGh1c2lvbiBQYXNzZW5nZXIgKG1vZF9yYWlscy9tb2RfcmFjaykgMy4wLjE0
-      !binary "ZXRhZw==":
-      - !binary |-
-        IjNmMjAyNGRjNzdkZDYyMDM5NTJlZjM2ZTJmNzM1YWUzIg==
-      !binary "Y2FjaGUtY29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGU=
-      !binary "eC1ydW50aW1l":
-      - !binary |-
-        OTc=
-      !binary "c2VydmVy":
-      - !binary |-
-        bmdpbngvMS4yLjIgKyBQaHVzaW9uIFBhc3NlbmdlciAzLjAuMTQgKG1vZF9y
-        YWlscy9tb2RfcmFjayk=
-      !binary "Y29udGVudC1lbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - '200'
+      x-powered-by:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.14
+      etag:
+      - '"3f2024dc77dd6203952ef36e2f735ae3"'
+      cache-control:
+      - private, max-age=0, must-revalidate
+      x-runtime:
+      - '97'
+      server:
+      - nginx/1.2.2 + Phusion Passenger 3.0.14 (mod_rails/mod_rack)
+      content-encoding:
+      - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5910,7 +5561,1376 @@ http_interactions:
         GqHC2gboYcIiySijLCs40WpBFPhu0mOIiaIBH9Bs5uR3PWOj83pm/vI42aQl
         rnPDaCDAh7s6Z0BaLG7SeOBkk1d2AhlAXWQ8unyp4hj0AFikNGGE5oQWKGVl
         mpcsRW1zigFfT+xJ1qJvpwhIkRcBAAA=
-    http_version: !binary |-
-      MS4x
+    http_version: '1.1'
   recorded_at: Fri, 07 Jun 2013 23:30:22 GMT
+- request:
+    method: post
+    uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories//attachments
+    body:
+      encoding: ASCII-8BIT
+      string: "--723146\r\nContent-Disposition: form-data; name=\"Filedata\"; filename=\"LICENSE\"\r\nContent-Type:
+        text/plain\r\n\r\nCopyright (c) 2009 Justin Smestad\nCopyright (c) 2015 Hannah
+        Howard, Judson Lester\n\nPermission is hereby granted, free of charge, to
+        any person obtaining\na copy of this software and associated documentation
+        files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout
+        limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense,
+        and/or sell copies of the Software, and to\npermit persons to whom the Software
+        is furnished to do so, subject to\nthe following conditions:\n\nThe above
+        copyright notice and this permission notice shall be\nincluded in all copies
+        or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS
+        IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT
+        LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+        AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE
+        FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT,
+        TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE
+        OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\r\n--723146--\r\n"
+    headers:
+      accept:
+      - "*/*; q=0.5, application/xml"
+      accept-encoding:
+      - gzip, deflate
+      x-trackertoken:
+      - c894469f31a343c1f94017752a2a496f
+      content-type:
+      - multipart/form-data; boundary=723146
+      content-length:
+      - '1227'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      content-type:
+      - text/html
+      content-length:
+      - '4649'
+      status:
+      - 404 Not Found
+      x-request-id:
+      - aef5cbfc0367c4f8dcb5bb2ac8e86853
+      x-runtime:
+      - '0.014555'
+      date:
+      - Tue, 18 Aug 2015 22:59:49 GMT
+      x-rack-cache:
+      - invalidate, pass
+      x-powered-by:
+      - Phusion Passenger 4.0.41
+      server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>File Not Found - Pivotal Tracker</title>
+          <script type="text/javascript" src="//use.typekit.net/gkc7bqo.js"></script>
+          <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+          <style type="text/css" media="screen">
+            body {
+              margin: 0 0 0 0;
+              background: #6096BD;
+              font-family: ars-maquette-web, 'open sans', sans-serif;
+            }
+
+            p {
+              margin: 0;
+            }
+
+            .container {
+            }
+
+            .center {
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+            }
+
+            div.header {
+              width: 100%;
+              background-color: white;
+              height: 52px;
+              padding-top: 10px;
+            }
+
+            #robot {
+              display: inline-block;
+              padding-top: 30px;
+              padding-right: 30px;
+              float: left;
+            }
+
+            #copy {
+              display: inline-block;
+              width: 210px;
+              height: 210px;
+              font-size: 20px;
+              background-color: #ECEDEE;
+              padding: 20px;
+              margin-top: 40px;
+              float: right;
+            }
+
+            .clearfix {
+              clear: both;
+            }
+
+            h1 {
+              color: #333;
+              font-size: 20px;
+              font-weight: bold;
+              margin: 0 0 12px;
+              padding: 0 0 0.25em;
+            }
+
+            .angled_button span {
+              font-size: 14px;
+            }
+
+
+
+            .angled_button {
+              -webkit-background-clip: border-box;
+              -webkit-background-origin: padding-box;
+              -webkit-background-size: auto;
+              background-attachment: scroll;
+              background-clip: border-box;
+              background-color: #C72543;
+              background-image: none;
+              background-origin: padding-box;
+              background-size: auto;
+              border-bottom-color: #FFF;
+              border-bottom-style: none;
+              border-bottom-width: 0px;
+              border-image-outset: 0px;
+              border-image-repeat: stretch;
+              border-image-slice: 100%;
+              border-image-source: none;
+              border-image-width: 1;
+              border-left-color: #FFF;
+              border-left-style: none;
+              border-left-width: 0px;
+              border-right-color: #FFF;
+              border-right-style: none;
+              border-right-width: 0px;
+              border-top-color: #FFF;
+              border-top-style: none;
+              border-top-width: 0px;
+              color: #FFF;
+              cursor: auto;
+              display: inline-block;
+              font-family: ars-maquette-web, 'open sans', sans-serif;
+              font-size: 12px;
+              font-weight: 600;
+              height: 29px;
+              letter-spacing: 1px;
+              line-height: 29px;
+              margin-bottom: 0px;
+              margin-left: 0px;
+              margin-right: 9px;
+              margin-top: 17px;
+              outline-color: #FFF;
+              outline-style: none;
+              outline-width: 0px;
+              padding-bottom: 0px;
+              padding-left: 14px;
+              padding-right: 8px;
+              padding-top: 0px;
+              position: relative;
+              text-align: center;
+              text-decoration: none solid rgb(255, 255, 255);
+              vertical-align: middle;
+              cursor: pointer;
+              width: 170px;
+            }
+
+            #help_button {
+              background-color: #6096BE;
+            }
+
+            .angled_button span + span {
+              border-bottom-color: rgba(0, 0, 0, 0);
+              border-bottom-style: solid;
+              border-bottom-width: 14px;
+              border-left-color: #C72543;
+              border-left-style: solid;
+              border-left-width: 9px;
+              border-top-color: rgba(0, 0, 0, 0);
+              border-top-style: solid;
+              border-top-width: 15px;
+              display: block;
+              height: 0px;
+              left: 170px;
+              position: absolute;
+              width: 0px;
+              top: 0px;
+            }
+
+            #help_button span + span {
+              border-left-color: #6096BE;
+            }
+
+            #help_button:hover {
+              background-color: #5283b0;
+            }
+
+            #help_button:hover span + span {
+              border-left-color: #5283b0;
+            }
+
+            #signin_button:hover {
+              background-color: #840929;
+            }
+
+            #signin_button:hover span + span {
+              border-left-color: #840929;
+            }
+
+
+          </style>
+        </head>
+        <body>
+        <div class="header">
+          <div>
+            <a href="/"><img alt="Tracker" class="center"  style="width: 280px;" src="/images/v7/logos/logo_main.png"/></a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="center" style="width: 500px;">
+            <img id="robot" src="/images/v7/status_pages/robot-404.png"/>
+
+            <div id="copy">
+              <h1>Oh noes!</h1>
+
+              <p>We could not find the page you were looking for</p>
+
+              <form action="/signin" method="get">
+                <button id="signin_button" class="angled_button" type="submit">
+                  <span>LOGIN or SIGNUP</span>
+                  <span></span>
+                </button>
+              </form>
+              <form action="/help" method="get">
+                <button id="help_button" class="angled_button" type="submit">
+                  <span>HELP &amp; SUPPORT</span>
+                  <span></span>
+                </button>
+              </form>
+            </div>
+            <br class="clearfix"/>
+          </div>
+        </div>
+        </body>
+        </html>
+    http_version: '1.1'
+  recorded_at: Tue, 18 Aug 2015 22:59:49 GMT
+- request:
+    method: get
+    uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories//notes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - "*/*; q=0.5, application/xml"
+      accept-encoding:
+      - gzip, deflate
+      x-trackertoken:
+      - c894469f31a343c1f94017752a2a496f
+      content-type:
+      - application/xml
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      content-type:
+      - text/html; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - 401 Unauthorized
+      x-ua-compatible:
+      - IE=Edge,chrome=1
+      cache-control:
+      - no-cache
+      x-request-id:
+      - 2d099660193025ab825d5ac46ebde2b2
+      x-runtime:
+      - '0.032226'
+      date:
+      - Tue, 18 Aug 2015 22:59:50 GMT
+      x-rack-cache:
+      - miss
+      x-powered-by:
+      - Phusion Passenger 4.0.41
+      server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+    body:
+      encoding: UTF-8
+      string: |
+        Access denied.
+    http_version: '1.1'
+  recorded_at: Tue, 18 Aug 2015 22:59:50 GMT
+- request:
+    method: post
+    uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories//notes
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0"?>
+        <note>
+          <text>Test note</text>
+          <noted_at/>
+        </note>
+    headers:
+      accept:
+      - "*/*; q=0.5, application/xml"
+      accept-encoding:
+      - gzip, deflate
+      x-trackertoken:
+      - c894469f31a343c1f94017752a2a496f
+      content-type:
+      - application/xml
+      content-length:
+      - '76'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      content-type:
+      - text/html
+      content-length:
+      - '4649'
+      status:
+      - 404 Not Found
+      x-request-id:
+      - ee7267195c0c84a4c234078249e6975e
+      x-runtime:
+      - '0.019935'
+      date:
+      - Tue, 18 Aug 2015 22:59:50 GMT
+      x-rack-cache:
+      - invalidate, pass
+      x-powered-by:
+      - Phusion Passenger 4.0.41
+      server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>File Not Found - Pivotal Tracker</title>
+          <script type="text/javascript" src="//use.typekit.net/gkc7bqo.js"></script>
+          <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+          <style type="text/css" media="screen">
+            body {
+              margin: 0 0 0 0;
+              background: #6096BD;
+              font-family: ars-maquette-web, 'open sans', sans-serif;
+            }
+
+            p {
+              margin: 0;
+            }
+
+            .container {
+            }
+
+            .center {
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+            }
+
+            div.header {
+              width: 100%;
+              background-color: white;
+              height: 52px;
+              padding-top: 10px;
+            }
+
+            #robot {
+              display: inline-block;
+              padding-top: 30px;
+              padding-right: 30px;
+              float: left;
+            }
+
+            #copy {
+              display: inline-block;
+              width: 210px;
+              height: 210px;
+              font-size: 20px;
+              background-color: #ECEDEE;
+              padding: 20px;
+              margin-top: 40px;
+              float: right;
+            }
+
+            .clearfix {
+              clear: both;
+            }
+
+            h1 {
+              color: #333;
+              font-size: 20px;
+              font-weight: bold;
+              margin: 0 0 12px;
+              padding: 0 0 0.25em;
+            }
+
+            .angled_button span {
+              font-size: 14px;
+            }
+
+
+
+            .angled_button {
+              -webkit-background-clip: border-box;
+              -webkit-background-origin: padding-box;
+              -webkit-background-size: auto;
+              background-attachment: scroll;
+              background-clip: border-box;
+              background-color: #C72543;
+              background-image: none;
+              background-origin: padding-box;
+              background-size: auto;
+              border-bottom-color: #FFF;
+              border-bottom-style: none;
+              border-bottom-width: 0px;
+              border-image-outset: 0px;
+              border-image-repeat: stretch;
+              border-image-slice: 100%;
+              border-image-source: none;
+              border-image-width: 1;
+              border-left-color: #FFF;
+              border-left-style: none;
+              border-left-width: 0px;
+              border-right-color: #FFF;
+              border-right-style: none;
+              border-right-width: 0px;
+              border-top-color: #FFF;
+              border-top-style: none;
+              border-top-width: 0px;
+              color: #FFF;
+              cursor: auto;
+              display: inline-block;
+              font-family: ars-maquette-web, 'open sans', sans-serif;
+              font-size: 12px;
+              font-weight: 600;
+              height: 29px;
+              letter-spacing: 1px;
+              line-height: 29px;
+              margin-bottom: 0px;
+              margin-left: 0px;
+              margin-right: 9px;
+              margin-top: 17px;
+              outline-color: #FFF;
+              outline-style: none;
+              outline-width: 0px;
+              padding-bottom: 0px;
+              padding-left: 14px;
+              padding-right: 8px;
+              padding-top: 0px;
+              position: relative;
+              text-align: center;
+              text-decoration: none solid rgb(255, 255, 255);
+              vertical-align: middle;
+              cursor: pointer;
+              width: 170px;
+            }
+
+            #help_button {
+              background-color: #6096BE;
+            }
+
+            .angled_button span + span {
+              border-bottom-color: rgba(0, 0, 0, 0);
+              border-bottom-style: solid;
+              border-bottom-width: 14px;
+              border-left-color: #C72543;
+              border-left-style: solid;
+              border-left-width: 9px;
+              border-top-color: rgba(0, 0, 0, 0);
+              border-top-style: solid;
+              border-top-width: 15px;
+              display: block;
+              height: 0px;
+              left: 170px;
+              position: absolute;
+              width: 0px;
+              top: 0px;
+            }
+
+            #help_button span + span {
+              border-left-color: #6096BE;
+            }
+
+            #help_button:hover {
+              background-color: #5283b0;
+            }
+
+            #help_button:hover span + span {
+              border-left-color: #5283b0;
+            }
+
+            #signin_button:hover {
+              background-color: #840929;
+            }
+
+            #signin_button:hover span + span {
+              border-left-color: #840929;
+            }
+
+
+          </style>
+        </head>
+        <body>
+        <div class="header">
+          <div>
+            <a href="/"><img alt="Tracker" class="center"  style="width: 280px;" src="/images/v7/logos/logo_main.png"/></a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="center" style="width: 500px;">
+            <img id="robot" src="/images/v7/status_pages/robot-404.png"/>
+
+            <div id="copy">
+              <h1>Oh noes!</h1>
+
+              <p>We could not find the page you were looking for</p>
+
+              <form action="/signin" method="get">
+                <button id="signin_button" class="angled_button" type="submit">
+                  <span>LOGIN or SIGNUP</span>
+                  <span></span>
+                </button>
+              </form>
+              <form action="/help" method="get">
+                <button id="help_button" class="angled_button" type="submit">
+                  <span>HELP &amp; SUPPORT</span>
+                  <span></span>
+                </button>
+              </form>
+            </div>
+            <br class="clearfix"/>
+          </div>
+        </div>
+        </body>
+        </html>
+    http_version: '1.1'
+  recorded_at: Tue, 18 Aug 2015 22:59:50 GMT
+- request:
+    method: post
+    uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories//moves?move[move]=before&move[target]=
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    headers:
+      accept:
+      - "*/*; q=0.5, application/xml"
+      accept-encoding:
+      - gzip, deflate
+      x-trackertoken:
+      - c894469f31a343c1f94017752a2a496f
+      content-type:
+      - application/xml
+      content-length:
+      - '0'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      content-type:
+      - text/html
+      content-length:
+      - '4649'
+      status:
+      - 404 Not Found
+      x-request-id:
+      - d5a7d3f70f90fed98604b3007f3c0eb3
+      x-runtime:
+      - '0.014704'
+      date:
+      - Tue, 18 Aug 2015 22:59:51 GMT
+      x-rack-cache:
+      - invalidate, pass
+      x-powered-by:
+      - Phusion Passenger 4.0.41
+      server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>File Not Found - Pivotal Tracker</title>
+          <script type="text/javascript" src="//use.typekit.net/gkc7bqo.js"></script>
+          <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+          <style type="text/css" media="screen">
+            body {
+              margin: 0 0 0 0;
+              background: #6096BD;
+              font-family: ars-maquette-web, 'open sans', sans-serif;
+            }
+
+            p {
+              margin: 0;
+            }
+
+            .container {
+            }
+
+            .center {
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+            }
+
+            div.header {
+              width: 100%;
+              background-color: white;
+              height: 52px;
+              padding-top: 10px;
+            }
+
+            #robot {
+              display: inline-block;
+              padding-top: 30px;
+              padding-right: 30px;
+              float: left;
+            }
+
+            #copy {
+              display: inline-block;
+              width: 210px;
+              height: 210px;
+              font-size: 20px;
+              background-color: #ECEDEE;
+              padding: 20px;
+              margin-top: 40px;
+              float: right;
+            }
+
+            .clearfix {
+              clear: both;
+            }
+
+            h1 {
+              color: #333;
+              font-size: 20px;
+              font-weight: bold;
+              margin: 0 0 12px;
+              padding: 0 0 0.25em;
+            }
+
+            .angled_button span {
+              font-size: 14px;
+            }
+
+
+
+            .angled_button {
+              -webkit-background-clip: border-box;
+              -webkit-background-origin: padding-box;
+              -webkit-background-size: auto;
+              background-attachment: scroll;
+              background-clip: border-box;
+              background-color: #C72543;
+              background-image: none;
+              background-origin: padding-box;
+              background-size: auto;
+              border-bottom-color: #FFF;
+              border-bottom-style: none;
+              border-bottom-width: 0px;
+              border-image-outset: 0px;
+              border-image-repeat: stretch;
+              border-image-slice: 100%;
+              border-image-source: none;
+              border-image-width: 1;
+              border-left-color: #FFF;
+              border-left-style: none;
+              border-left-width: 0px;
+              border-right-color: #FFF;
+              border-right-style: none;
+              border-right-width: 0px;
+              border-top-color: #FFF;
+              border-top-style: none;
+              border-top-width: 0px;
+              color: #FFF;
+              cursor: auto;
+              display: inline-block;
+              font-family: ars-maquette-web, 'open sans', sans-serif;
+              font-size: 12px;
+              font-weight: 600;
+              height: 29px;
+              letter-spacing: 1px;
+              line-height: 29px;
+              margin-bottom: 0px;
+              margin-left: 0px;
+              margin-right: 9px;
+              margin-top: 17px;
+              outline-color: #FFF;
+              outline-style: none;
+              outline-width: 0px;
+              padding-bottom: 0px;
+              padding-left: 14px;
+              padding-right: 8px;
+              padding-top: 0px;
+              position: relative;
+              text-align: center;
+              text-decoration: none solid rgb(255, 255, 255);
+              vertical-align: middle;
+              cursor: pointer;
+              width: 170px;
+            }
+
+            #help_button {
+              background-color: #6096BE;
+            }
+
+            .angled_button span + span {
+              border-bottom-color: rgba(0, 0, 0, 0);
+              border-bottom-style: solid;
+              border-bottom-width: 14px;
+              border-left-color: #C72543;
+              border-left-style: solid;
+              border-left-width: 9px;
+              border-top-color: rgba(0, 0, 0, 0);
+              border-top-style: solid;
+              border-top-width: 15px;
+              display: block;
+              height: 0px;
+              left: 170px;
+              position: absolute;
+              width: 0px;
+              top: 0px;
+            }
+
+            #help_button span + span {
+              border-left-color: #6096BE;
+            }
+
+            #help_button:hover {
+              background-color: #5283b0;
+            }
+
+            #help_button:hover span + span {
+              border-left-color: #5283b0;
+            }
+
+            #signin_button:hover {
+              background-color: #840929;
+            }
+
+            #signin_button:hover span + span {
+              border-left-color: #840929;
+            }
+
+
+          </style>
+        </head>
+        <body>
+        <div class="header">
+          <div>
+            <a href="/"><img alt="Tracker" class="center"  style="width: 280px;" src="/images/v7/logos/logo_main.png"/></a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="center" style="width: 500px;">
+            <img id="robot" src="/images/v7/status_pages/robot-404.png"/>
+
+            <div id="copy">
+              <h1>Oh noes!</h1>
+
+              <p>We could not find the page you were looking for</p>
+
+              <form action="/signin" method="get">
+                <button id="signin_button" class="angled_button" type="submit">
+                  <span>LOGIN or SIGNUP</span>
+                  <span></span>
+                </button>
+              </form>
+              <form action="/help" method="get">
+                <button id="help_button" class="angled_button" type="submit">
+                  <span>HELP &amp; SUPPORT</span>
+                  <span></span>
+                </button>
+              </form>
+            </div>
+            <br class="clearfix"/>
+          </div>
+        </div>
+        </body>
+        </html>
+    http_version: '1.1'
+  recorded_at: Tue, 18 Aug 2015 22:59:51 GMT
+- request:
+    method: post
+    uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories//moves?move[move]=after&move[target]=
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    headers:
+      accept:
+      - "*/*; q=0.5, application/xml"
+      accept-encoding:
+      - gzip, deflate
+      x-trackertoken:
+      - c894469f31a343c1f94017752a2a496f
+      content-type:
+      - application/xml
+      content-length:
+      - '0'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      content-type:
+      - text/html
+      content-length:
+      - '4649'
+      status:
+      - 404 Not Found
+      x-request-id:
+      - 7a80bb06606f4ce393b91f47f674b47e
+      x-runtime:
+      - '0.016790'
+      date:
+      - Tue, 18 Aug 2015 22:59:51 GMT
+      x-rack-cache:
+      - invalidate, pass
+      x-powered-by:
+      - Phusion Passenger 4.0.41
+      server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>File Not Found - Pivotal Tracker</title>
+          <script type="text/javascript" src="//use.typekit.net/gkc7bqo.js"></script>
+          <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+          <style type="text/css" media="screen">
+            body {
+              margin: 0 0 0 0;
+              background: #6096BD;
+              font-family: ars-maquette-web, 'open sans', sans-serif;
+            }
+
+            p {
+              margin: 0;
+            }
+
+            .container {
+            }
+
+            .center {
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+            }
+
+            div.header {
+              width: 100%;
+              background-color: white;
+              height: 52px;
+              padding-top: 10px;
+            }
+
+            #robot {
+              display: inline-block;
+              padding-top: 30px;
+              padding-right: 30px;
+              float: left;
+            }
+
+            #copy {
+              display: inline-block;
+              width: 210px;
+              height: 210px;
+              font-size: 20px;
+              background-color: #ECEDEE;
+              padding: 20px;
+              margin-top: 40px;
+              float: right;
+            }
+
+            .clearfix {
+              clear: both;
+            }
+
+            h1 {
+              color: #333;
+              font-size: 20px;
+              font-weight: bold;
+              margin: 0 0 12px;
+              padding: 0 0 0.25em;
+            }
+
+            .angled_button span {
+              font-size: 14px;
+            }
+
+
+
+            .angled_button {
+              -webkit-background-clip: border-box;
+              -webkit-background-origin: padding-box;
+              -webkit-background-size: auto;
+              background-attachment: scroll;
+              background-clip: border-box;
+              background-color: #C72543;
+              background-image: none;
+              background-origin: padding-box;
+              background-size: auto;
+              border-bottom-color: #FFF;
+              border-bottom-style: none;
+              border-bottom-width: 0px;
+              border-image-outset: 0px;
+              border-image-repeat: stretch;
+              border-image-slice: 100%;
+              border-image-source: none;
+              border-image-width: 1;
+              border-left-color: #FFF;
+              border-left-style: none;
+              border-left-width: 0px;
+              border-right-color: #FFF;
+              border-right-style: none;
+              border-right-width: 0px;
+              border-top-color: #FFF;
+              border-top-style: none;
+              border-top-width: 0px;
+              color: #FFF;
+              cursor: auto;
+              display: inline-block;
+              font-family: ars-maquette-web, 'open sans', sans-serif;
+              font-size: 12px;
+              font-weight: 600;
+              height: 29px;
+              letter-spacing: 1px;
+              line-height: 29px;
+              margin-bottom: 0px;
+              margin-left: 0px;
+              margin-right: 9px;
+              margin-top: 17px;
+              outline-color: #FFF;
+              outline-style: none;
+              outline-width: 0px;
+              padding-bottom: 0px;
+              padding-left: 14px;
+              padding-right: 8px;
+              padding-top: 0px;
+              position: relative;
+              text-align: center;
+              text-decoration: none solid rgb(255, 255, 255);
+              vertical-align: middle;
+              cursor: pointer;
+              width: 170px;
+            }
+
+            #help_button {
+              background-color: #6096BE;
+            }
+
+            .angled_button span + span {
+              border-bottom-color: rgba(0, 0, 0, 0);
+              border-bottom-style: solid;
+              border-bottom-width: 14px;
+              border-left-color: #C72543;
+              border-left-style: solid;
+              border-left-width: 9px;
+              border-top-color: rgba(0, 0, 0, 0);
+              border-top-style: solid;
+              border-top-width: 15px;
+              display: block;
+              height: 0px;
+              left: 170px;
+              position: absolute;
+              width: 0px;
+              top: 0px;
+            }
+
+            #help_button span + span {
+              border-left-color: #6096BE;
+            }
+
+            #help_button:hover {
+              background-color: #5283b0;
+            }
+
+            #help_button:hover span + span {
+              border-left-color: #5283b0;
+            }
+
+            #signin_button:hover {
+              background-color: #840929;
+            }
+
+            #signin_button:hover span + span {
+              border-left-color: #840929;
+            }
+
+
+          </style>
+        </head>
+        <body>
+        <div class="header">
+          <div>
+            <a href="/"><img alt="Tracker" class="center"  style="width: 280px;" src="/images/v7/logos/logo_main.png"/></a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="center" style="width: 500px;">
+            <img id="robot" src="/images/v7/status_pages/robot-404.png"/>
+
+            <div id="copy">
+              <h1>Oh noes!</h1>
+
+              <p>We could not find the page you were looking for</p>
+
+              <form action="/signin" method="get">
+                <button id="signin_button" class="angled_button" type="submit">
+                  <span>LOGIN or SIGNUP</span>
+                  <span></span>
+                </button>
+              </form>
+              <form action="/help" method="get">
+                <button id="help_button" class="angled_button" type="submit">
+                  <span>HELP &amp; SUPPORT</span>
+                  <span></span>
+                </button>
+              </form>
+            </div>
+            <br class="clearfix"/>
+          </div>
+        </div>
+        </body>
+        </html>
+    http_version: '1.1'
+  recorded_at: Tue, 18 Aug 2015 22:59:51 GMT
+- request:
+    method: get
+    uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories//tasks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - "*/*; q=0.5, application/xml"
+      accept-encoding:
+      - gzip, deflate
+      x-trackertoken:
+      - c894469f31a343c1f94017752a2a496f
+      content-type:
+      - application/xml
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      content-type:
+      - text/html; charset=utf-8
+      transfer-encoding:
+      - chunked
+      status:
+      - 401 Unauthorized
+      x-ua-compatible:
+      - IE=Edge,chrome=1
+      cache-control:
+      - no-cache
+      x-request-id:
+      - f169596666d02d58a9e84acb3d0c6307
+      x-runtime:
+      - '0.029377'
+      date:
+      - Tue, 18 Aug 2015 22:59:52 GMT
+      x-rack-cache:
+      - miss
+      x-powered-by:
+      - Phusion Passenger 4.0.41
+      server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+    body:
+      encoding: UTF-8
+      string: |
+        Access denied.
+    http_version: '1.1'
+  recorded_at: Tue, 18 Aug 2015 22:59:51 GMT
+- request:
+    method: post
+    uri: http://www.pivotaltracker.com/services/v3/projects/833075/stories//tasks
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0"?>
+        <task>
+          <description>Test task</description>
+          <complete/>
+        </task>
+    headers:
+      accept:
+      - "*/*; q=0.5, application/xml"
+      accept-encoding:
+      - gzip, deflate
+      x-trackertoken:
+      - c894469f31a343c1f94017752a2a496f
+      content-type:
+      - application/xml
+      content-length:
+      - '90'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      content-type:
+      - text/html
+      content-length:
+      - '4649'
+      status:
+      - 404 Not Found
+      x-request-id:
+      - deb3dd4ac4de6a3d3c4aaa7edf374f04
+      x-runtime:
+      - '0.015962'
+      date:
+      - Tue, 18 Aug 2015 22:59:52 GMT
+      x-rack-cache:
+      - invalidate, pass
+      x-powered-by:
+      - Phusion Passenger 4.0.41
+      server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>File Not Found - Pivotal Tracker</title>
+          <script type="text/javascript" src="//use.typekit.net/gkc7bqo.js"></script>
+          <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+          <style type="text/css" media="screen">
+            body {
+              margin: 0 0 0 0;
+              background: #6096BD;
+              font-family: ars-maquette-web, 'open sans', sans-serif;
+            }
+
+            p {
+              margin: 0;
+            }
+
+            .container {
+            }
+
+            .center {
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+            }
+
+            div.header {
+              width: 100%;
+              background-color: white;
+              height: 52px;
+              padding-top: 10px;
+            }
+
+            #robot {
+              display: inline-block;
+              padding-top: 30px;
+              padding-right: 30px;
+              float: left;
+            }
+
+            #copy {
+              display: inline-block;
+              width: 210px;
+              height: 210px;
+              font-size: 20px;
+              background-color: #ECEDEE;
+              padding: 20px;
+              margin-top: 40px;
+              float: right;
+            }
+
+            .clearfix {
+              clear: both;
+            }
+
+            h1 {
+              color: #333;
+              font-size: 20px;
+              font-weight: bold;
+              margin: 0 0 12px;
+              padding: 0 0 0.25em;
+            }
+
+            .angled_button span {
+              font-size: 14px;
+            }
+
+
+
+            .angled_button {
+              -webkit-background-clip: border-box;
+              -webkit-background-origin: padding-box;
+              -webkit-background-size: auto;
+              background-attachment: scroll;
+              background-clip: border-box;
+              background-color: #C72543;
+              background-image: none;
+              background-origin: padding-box;
+              background-size: auto;
+              border-bottom-color: #FFF;
+              border-bottom-style: none;
+              border-bottom-width: 0px;
+              border-image-outset: 0px;
+              border-image-repeat: stretch;
+              border-image-slice: 100%;
+              border-image-source: none;
+              border-image-width: 1;
+              border-left-color: #FFF;
+              border-left-style: none;
+              border-left-width: 0px;
+              border-right-color: #FFF;
+              border-right-style: none;
+              border-right-width: 0px;
+              border-top-color: #FFF;
+              border-top-style: none;
+              border-top-width: 0px;
+              color: #FFF;
+              cursor: auto;
+              display: inline-block;
+              font-family: ars-maquette-web, 'open sans', sans-serif;
+              font-size: 12px;
+              font-weight: 600;
+              height: 29px;
+              letter-spacing: 1px;
+              line-height: 29px;
+              margin-bottom: 0px;
+              margin-left: 0px;
+              margin-right: 9px;
+              margin-top: 17px;
+              outline-color: #FFF;
+              outline-style: none;
+              outline-width: 0px;
+              padding-bottom: 0px;
+              padding-left: 14px;
+              padding-right: 8px;
+              padding-top: 0px;
+              position: relative;
+              text-align: center;
+              text-decoration: none solid rgb(255, 255, 255);
+              vertical-align: middle;
+              cursor: pointer;
+              width: 170px;
+            }
+
+            #help_button {
+              background-color: #6096BE;
+            }
+
+            .angled_button span + span {
+              border-bottom-color: rgba(0, 0, 0, 0);
+              border-bottom-style: solid;
+              border-bottom-width: 14px;
+              border-left-color: #C72543;
+              border-left-style: solid;
+              border-left-width: 9px;
+              border-top-color: rgba(0, 0, 0, 0);
+              border-top-style: solid;
+              border-top-width: 15px;
+              display: block;
+              height: 0px;
+              left: 170px;
+              position: absolute;
+              width: 0px;
+              top: 0px;
+            }
+
+            #help_button span + span {
+              border-left-color: #6096BE;
+            }
+
+            #help_button:hover {
+              background-color: #5283b0;
+            }
+
+            #help_button:hover span + span {
+              border-left-color: #5283b0;
+            }
+
+            #signin_button:hover {
+              background-color: #840929;
+            }
+
+            #signin_button:hover span + span {
+              border-left-color: #840929;
+            }
+
+
+          </style>
+        </head>
+        <body>
+        <div class="header">
+          <div>
+            <a href="/"><img alt="Tracker" class="center"  style="width: 280px;" src="/images/v7/logos/logo_main.png"/></a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="center" style="width: 500px;">
+            <img id="robot" src="/images/v7/status_pages/robot-404.png"/>
+
+            <div id="copy">
+              <h1>Oh noes!</h1>
+
+              <p>We could not find the page you were looking for</p>
+
+              <form action="/signin" method="get">
+                <button id="signin_button" class="angled_button" type="submit">
+                  <span>LOGIN or SIGNUP</span>
+                  <span></span>
+                </button>
+              </form>
+              <form action="/help" method="get">
+                <button id="help_button" class="angled_button" type="submit">
+                  <span>HELP &amp; SUPPORT</span>
+                  <span></span>
+                </button>
+              </form>
+            </div>
+            <br class="clearfix"/>
+          </div>
+        </div>
+        </body>
+        </html>
+    http_version: '1.1'
+  recorded_at: Tue, 18 Aug 2015 22:59:52 GMT
 recorded_with: VCR 2.5.0
