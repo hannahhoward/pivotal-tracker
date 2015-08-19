@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/pivotal-tracker.rb",
+    "lib/pivotal_tracker.rb",
     "lib/pivotal-tracker/activity.rb",
     "lib/pivotal-tracker/attachment.rb",
     "lib/pivotal-tracker/client.rb",

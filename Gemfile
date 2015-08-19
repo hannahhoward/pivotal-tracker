@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'corundum'
 gem 'rspec'
 gem 'rake'
 gem 'jeweler'
